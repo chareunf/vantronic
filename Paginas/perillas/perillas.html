@@ -1,263 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="Vantronic S.A" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-    <link rel="stylesheet" href="/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vantronic S.A</title>
+    <link rel="icon" type="image/ico" href="images/favicon2.ico">
+    <link rel="stylesheet" href="/styles.css ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Baskerville:wght@700&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Baskerville:wght@700&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
+
 <body>
-    <header class="header-container">
-        <div class="menu container">
-            <a href="index.html" class="logo">Vantronic S.A</a>
-            <label for="menu">
-                <img src="Paginas/Copia de menu.png" class="menu-icono" alt="">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li> <a href="/index.html">Inicio</a></li>
-                    <li> <a href="/Paginas/Productos1/productos1.html">Productos</a></li>
-                    <li> <a href="/Paginas/componentes_electronicos.html">Componentes Electronicos</a></li>
-                    <li> <a href="/Paginas/Contacto/contacto.html">Contacto</a></li>                                   
-                </ul>
-            </nav>
-            <div class="icons">
-                <i id="fa-solid" class="fa-solid fa-map-location-dot"><br></i>
-            </div>            
-        </div> 
+    <header class="header-container ">
+
+        <nav class="navbar navbar-expand-lg  fixed-top ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="/">Vantronic S.A</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="/Paginas/componentes_electronicos.html"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Componentes Eelec.
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/Paginas/componentes_electronicos.html">Componentes
+                                        Elect.</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/Paginas/Conectores/connectors.html">Conectores</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/Paginas/Diodos/diodos.html">Diodos</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/electroliticos/electroliticos.html">Electroliticos</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/llaves_rotativas/llaves_rotativas.html">Llaves Rotativas</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/neones-lamparas-leds/neones-lamparas-leds.html">Neones Lamparas y
+                                        Leds</a></li>
+                                <li><a class="dropdown-item" href="/Paginas/perillas/perillas.html">Perillas</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/potenciometros/potenciometros.html">Potenciometros De Carbón</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/Paginas/presets/presets.html">Preset ACP MEC</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/Paginas/puls_int/puls_int.html">Pulsadores
+                                        Interruptores</a></li>
+                                <li><a class="dropdown-item" href="/Paginas/relays/relays.html">Relay</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/resistencias/resistencias.html">Resistencias</a></li>
+                                <li><a class="dropdown-item" href="/Paginas/zocalos/zocalos.html">Zócalos</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/capacitores/capacitores.html">Capacitores</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Náutica
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/Paginas/nautica/nautica.html">Náutica</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li><a class="dropdown-item" href="#">Próximamente</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Paginas/Contacto/contacto.html">Contactos</a>
+                        </li>
+
+                    </ul>
+                    <div class="d-flex icons ">
+                        <i id="fa-solid" class="fa-solid fa-map-location-dot"><br></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
     </header>
-        </div>
-    <main>
-        <div class="contenedor">
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/01.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-034 USD 0,22  </h3> <h3 class="card-description" >P-011 USD 0,28  </h3> <h3 class="card-description" >Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/02.png"alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-029 USD 0,50  </h3> <h3 class="card-description" > P-030 USD 0,25  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/03.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-087 USD 0,72  </h3> <h3 class="card-description" > P-069 USD 0,58  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                    <div class="card-header"> 
-                    <img src="/Paginas/perillas/04.png" alt="Perillas">
-                    </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-066 USD 0,47  </h3> <h3 class="card-description" >P-057 USD 0,52  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/05.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-056 USD 0,34 P-007 USD 0,54  Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/06.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-006 USD 0,40  </h3> <h3 class="card-description" >P-005 USD 0,40  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/07.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-041 USD 0,42  </h3> <h3 class="card-description" >P-038 USD 0,45  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/08.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-012 USD 0,45  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card">
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/09.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-4832 USD 0,46  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/10.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-4833 USD 0,30  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/11.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-4837 USD 0,45  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/12.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-4836 USD 0,30  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/13.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-4813 USD 0,30  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/14.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-4817 USD 0,30  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/15.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-4851 USD 0,32  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/16.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-4854 USD 0,34  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/17.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                        <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-4858 USD 0,34  </h3> <h3 class="card-description" > Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/23.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                    <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description" >P-4839 USD 0,35  Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure>
-                <div class="card-header">
-                    <img src="/Paginas/perillas/24.png" alt="Perillas">
-                </div>
-                    <div class="card-body">
-                    <h2 class="card-title">Perillas</h2>
-                    <h3 class="card-description">P-4838 USD 0,38  </h3> <h3> Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-        </div> 
+
+    <main class=" container">
+        <h2>Perillas</h2>
+        <section id="mainPerillas">
+
+        </section>
     </main>
-    <footer class="footer">
+
+    <footer class="footer ">
         <div class="footer-wrap">
+
             <div>
-                <h3 class="card-description" ><i class="fa-solid fa-at"></i> ventas@vantronic-sa.com.ar</h3>
-            </div>
-            <div>
-                <h3 class="card-description" ><i class="fa-brands fa-whatsapp"></i>11-3566-0113</h3>
+                <h4><i class="fa-solid fa-at"></i> ventas@vantronic-sa.com.ar</h4>
             </div>
             <div>
-                <h3 class="card-description" ><i class="fa-solid fa-phone"></i>4-750-0702</h3>
+                <h4><i class="fa-brands fa-whatsapp"></i> 11-3566-0113</h4>
             </div>
+            <div>
+                <h4><i class="fa-solid fa-phone"></i> 4-750-0702</h4>
             </div>
-        
-    </footer> 
-    <script src="scripts.js"></script>      
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script type="module" src="./perillas.js"></script>
 </body>
+
 </html>

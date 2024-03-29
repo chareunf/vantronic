@@ -1,36 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <title>Vantronic S.A</title>
+    <link rel="icon" type="image/ico" href="images/favicon2.ico">
+    <link rel="stylesheet" href="/styles.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Baskerville:wght@700&family=Playfair+Display&display=swap" rel="stylesheet">
+
+<!-- bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 <body>
-    <header class="header-container">
-        <div class="menu container">
-            <a href="index.html" class="logo">Vantronic S.A</a>
-            <label for="menu">
-                <img src="Paginas/Copia de menu.png" class="menu-icono" alt="">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li> <a href="/index.html">Inicio</a></li>
-                    <li> <a href="/Paginas/Productos1/productos1.html">Productos</a></li>
-                    <li> <a href="/Paginas/componentes_electronicos.html">Componentes Electronicos</a></li>
-                    <li> <a href="/Paginas/Contacto/contacto.html">Contacto</a></li>                                   
+    <header class="header-container ">
+     
+        <nav class="navbar navbar-expand-lg  fixed-top ">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="/">Vantronic S.A</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                  </li>
+                  
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="/Paginas/componentes_electronicos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Componentes Eelec.
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/Paginas/componentes_electronicos.html">Componentes Elect.</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="/Paginas/Conectores/connectors.html">Conectores</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/Diodos/diodos.html">Diodos</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/electroliticos/electroliticos.html">Electroliticos</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/llaves_rotativas/llaves_rotativas.html">Llaves Rotativas</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/neones-lamparas-leds/neones-lamparas-leds.html">Neones Lamparas y Leds</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/perillas/perillas.html">Perillas</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/potenciometros/potenciometros.html">Potenciometros De Carbón</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/presets/presets.html">Preset ACP MEC</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/puls_int/puls_int.html">Pulsadores Interruptores</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/relays/relays.html">Relay</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/resistencias/resistencias.html">Resistencias</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/zocalos/zocalos.html">Zócalos</a></li>
+                      <li><a class="dropdown-item" href="/Paginas/capacitores/capacitores.html">Capacitores</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Náutica
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/Paginas/nautica/nautica.html">Náutica</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      
+                      <li><a class="dropdown-item" href="#">Próximamente</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="/Paginas/Contacto/contacto.html">Contactos</a>
+                  </li>
+                  
                 </ul>
-            </nav>
-            <div class="icons">
-                <i id="fa-solid" class="fa-solid fa-map-location-dot"></i>
-            </div>            
-        </div> 
+                <div class="d-flex icons " >
+                    <i id="fa-solid" class="fa-solid fa-map-location-dot"><br></i>
+                </div>
+              </div>
+            </div>
+          </nav>
+ 
     </header>
-        </div>
+
+
+    <main  class="container ">
+        <h2>Diodos</h2>
+        <section id="mainDiodos" >
+
+        </section>
+     </main>
+        
+     <!--  
     <main>
         <div class="contenedor">
             <div class="card" >
@@ -63,7 +121,8 @@
                     </div>
                     <div class="card-body">
                         <h2 class="card-title">Diodos Rectificadores</h2>
-                    <h3 class="card-description">1N4007 USD 0,17 </h3> <h3>   1N5408 USD 0,07 </h3> <h3>   Consultar cotizacion USD</h3>                             
+                    <h3 class="card-description">1N4007 USD 0,17 </h3>
+                     <h3>   1N5408 USD 0,07 </h3> <h3>   Consultar cotizacion USD</h3>                             
                     </div>
                 </figure>
             </div>
@@ -86,7 +145,8 @@
                     <div class="card-body">
                         <h2 class="card-title">Diodos Fast Recovery</h2>
                         
-                    <h3 class="card-description">FR107 USD 0,023 </h3><h3>   FR307 USD 0,10 </h3><h3>   Consultar cotizacion USD</h3>                             
+                    <h3 class="card-description">FR107 USD 0,023 </h3>
+                    <h3>   FR307 USD 0,10 </h3><h3>   Consultar cotizacion USD</h3>                             
                     </div>
                 </figure>
             </div>
@@ -97,7 +157,8 @@
                     <div class="card-body"><br><br>
                         
                         <h2 class="card-title">Diodos Super Fast Recovery</h2>
-                    <h3 class="card-description">SF16 USD 0,055 </h3><h3>   SF26 USD 0,05 </h3><h3>  SF36 USD 0,18  </h3><h3>  Consultar cotizacion USD</h3>                             
+                    <h3 class="card-description">SF16 USD 0,055 </h3>
+                    <h3>   SF26 USD 0,05 </h3><h3>  SF36 USD 0,18  </h3><h3>  Consultar cotizacion USD</h3>                             
                     </div>
                 </figure>
             </div>
@@ -109,7 +170,8 @@
                         
                         <h2 class="card-title">Diodos Ultra Fast Recovery</h2>
                         
-                    <h3 class="card-description">UF4004 USD 0,03  </h3><h3>  UF4007 USD 0,03 </h3><h3>   Consultar cotizacion USD</h3>                             
+                    <h3 class="card-description">UF4004 USD 0,03  </h3>
+                    <h3>  UF4007 USD 0,03 </h3><h3>   Consultar cotizacion USD</h3>                             
                     </div>
                 </figure>
             </div>
@@ -121,7 +183,8 @@
                         
                         <h2 class="card-title">Diodos Ultra Fast Recovery</h2>
                         
-                    <h3 class="card-description">UF-5404 USD 0,14 </h3><h3>   UF-5408 USD 0,14</h3><h3>    Consultar cotizacion USD</h3>                             
+                    <h3 class="card-description">UF-5404 USD 0,14 </h3>
+                    <h3>   UF-5408 USD 0,14</h3><h3>    Consultar cotizacion USD</h3>                             
                     </div>
                 </figure>
             </div>
@@ -131,7 +194,8 @@
                     </div>
                     <div class="card-body">
                         <h2 class="card-title">Diodos Schottky Barryer</h2>
-                    <h3 class="card-description">SR860   USD 0,52 </h3><h3>   SBL1660   USD 1,00 </h3><h3>  SBL-3060PT USD 1,60 </h3><h3>   Consultar cotizacion USD</h3>                             
+                    <h3 class="card-description">SR860   USD 0,52 </h3>
+                    <h3>   SBL1660   USD 1,00 </h3><h3>  SBL-3060PT USD 1,60 </h3><h3>   Consultar cotizacion USD</h3>                             
                     </div>
                 </figure>
             </div>
@@ -141,7 +205,8 @@
                     </div>
                     <div class="card-body">
                         <h2 class="card-title">Diodos Puentes Rectificadores</h2>
-                    <h3 class="card-description">W10M USD 0,20 </h3><h3>   KBL10 USD 0,51 </h3><h3>  RS607 USD 0,87 </h3><h3>   Consultar cotizacion USD</h3>                             
+                    <h3 class="card-description">W10M USD 0,20 </h3>
+                    <h3>   KBL10 USD 0,51 </h3><h3>  RS607 USD 0,87 </h3><h3>   Consultar cotizacion USD</h3>                             
                     </div>
                 </figure>
             </div>
@@ -151,7 +216,8 @@
                     </div>
                     <div class="card-body">
                         <h2 class="card-title">Diodos Puentes Rectificadores</h2>
-                    <h3 class="card-description">W10M USD 0,20  </h3><h3>  KBL10 USD 0,51</h3><h3>   RS607 USD 0,87 </h3><h3>   Consultar cotizacion USD</h3>                             
+                    <h3 class="card-description">W10M USD 0,20  </h3>
+                    <h3>  KBL10 USD 0,51</h3><h3>   RS607 USD 0,87 </h3><h3>   Consultar cotizacion USD</h3>                             
                     </div>
                 </figure>
             </div>
@@ -173,7 +239,8 @@
                     </div>
                     <div class="card-body">
                         <h2 class="card-title">Diodos Zener </h2>
-                    <h3 class="card-description">1N5221 al 67 USD 0,030 </h3><h3>   Consultar cotizacion USD</h3>                             
+                    <h3 class="card-description">1N5221 al 67 USD 0,030 </h3>
+                    <h3>   Consultar cotizacion USD</h3>                             
                     </div>
                 </figure>
             </div>
@@ -183,7 +250,8 @@
                     </div>
                     <div class="card-body">
                         <h2 class="card-title">Diodos Zener </h2>
-                    <h3 class="card-description">1N4728 al 61 USD 0,077 </h3><h3>   Consultar cotizacion USD</h3>                             
+                    <h3 class="card-description">1N4728 al 61 USD 0,077 </h3>
+                    <h3>   Consultar cotizacion USD</h3>                             
                     </div>
                 </figure>
             </div>
@@ -194,21 +262,26 @@
 
 </div>
     </main>
-    <footer class="footer">
+
+    -->
+
+    <footer class="footer ">
         <div class="footer-wrap">
 
             <div>
-                <h3 class="card-description"><i class="fa-solid fa-at"></i> ventas@vantronic-sa.com.ar</h3>
+                <h4><i class="fa-solid fa-at"></i> ventas@vantronic-sa.com.ar</h4>
             </div>
             <div>
-                <h3 class="card-description"><i class="fa-brands fa-whatsapp"></i>11-3566-0113</h3>
+                <h4><i class="fa-brands fa-whatsapp"></i> 11-3566-0113</h4>
             </div>
             <div>
-                <h3 class="card-description"><i class="fa-solid fa-phone"></i>4-750-0702</h3>
+                <h4><i class="fa-solid fa-phone"></i> 4-750-0702</h4>
             </div>
             </div>
         
     </footer> 
-    <script src="scripts.js"></script>      
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="module" src="./diodos.js"></script>
 </body>
 </html>

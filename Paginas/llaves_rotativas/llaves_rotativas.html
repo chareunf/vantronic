@@ -1,99 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="Vantronic S.A" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-    <link rel="stylesheet" href="/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vantronic S.A</title>
+    <link rel="icon" type="image/ico" href="images/favicon2.ico">
+    <link rel="stylesheet" href="/styles.css ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Baskerville:wght@700&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Baskerville:wght@700&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
+
 <body>
-    <header class="header-container">
-        <div class="menu container">
-            <a href="index.html" class="logo">Vantronic S.A</a>
-            <label for="menu">
-                <img src="Paginas/Copia de menu.png" class="menu-icono" alt="">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li> <a href="/index.html">Inicio</a></li>
-                    <li> <a href="/Paginas/Productos1/productos1.html">Productos</a></li>
-                    <li> <a href="/Paginas/componentes_electronicos.html">Componentes Electronicos</a></li>
-                    <li> <a href="/Paginas/Contacto/contacto.html">Contacto</a></li>                                   
-                </ul>
-            </nav>
-            <div class="icons">
-                <i id="fa-solid" class="fa-solid fa-map-location-dot"></i>
-            </div>            
-        </div> 
+    <header class="header-container ">
+
+        <nav class="navbar navbar-expand-lg  fixed-top ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="/">Vantronic S.A</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="/Paginas/componentes_electronicos.html"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Componentes Eelec.
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/Paginas/componentes_electronicos.html">Componentes
+                                        Elect.</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/Paginas/Conectores/connectors.html">Conectores</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/Paginas/Diodos/diodos.html">Diodos</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/electroliticos/electroliticos.html">Electroliticos</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/llaves_rotativas/llaves_rotativas.html">Llaves Rotativas</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/neones-lamparas-leds/neones-lamparas-leds.html">Neones Lamparas y
+                                        Leds</a></li>
+                                <li><a class="dropdown-item" href="/Paginas/perillas/perillas.html">Perillas</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/potenciometros/potenciometros.html">Potenciometros De Carbón</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/Paginas/presets/presets.html">Preset ACP MEC</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/Paginas/puls_int/puls_int.html">Pulsadores
+                                        Interruptores</a></li>
+                                <li><a class="dropdown-item" href="/Paginas/relays/relays.html">Relay</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/resistencias/resistencias.html">Resistencias</a></li>
+                                <li><a class="dropdown-item" href="/Paginas/zocalos/zocalos.html">Zócalos</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/Paginas/capacitores/capacitores.html">Capacitores</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Náutica
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/Paginas/nautica/nautica.html">Náutica</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li><a class="dropdown-item" href="#">Próximamente</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Paginas/Contacto/contacto.html">Contactos</a>
+                        </li>
+
+                    </ul>
+                    <div class="d-flex icons ">
+                        <i id="fa-solid" class="fa-solid fa-map-location-dot"><br></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
     </header>
-        </div>
-    <main">
-        <div class="contenedor">
-            <div class="card" >
-                <figure>
-                    <img src="/Paginas/llaves_rotativas/01.png" alt="Llaves Rotativas">
-                    
-                    <div class="card-body">
-                        <h2 class="card-title">Llave Rotativa</h2><br><br><br><br><br>
-                    
-                    <h3 class="card-description">SR26 USD 4,80 Consultar </h3><h3> cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure id="conectores"><div>
-                    <img src="/Paginas/llaves_rotativas/02.png"alt="Llaves Rotativas">
-                </div>
-                    <div class="card-body"><br><br>
-                        <h2 class="card-title">Llave Rotativa</h2><br><br>
-                    <h3 class="card-description">R37-23 USD23 </h3><h3> R37 USD 0,025 </h3><h3>C / Piso Adicional USD 3,60 </h3><h3> Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure id="conectores"><div>
-                    <img src="/Paginas/llaves_rotativas/03.png" alt="Llaves Rotativas">
-                    </div>
-                    <div class="card-body"><br><br><br><br><br>
-                        
-                        <h2 class="card-title">Llave Rotativa</h2><br><br><br><br><br>
-                    <h3 class="card-description">R12X3 USD 6,60 </h3><h3> Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-            <div class="card" >
-                <figure id="conectores"><div>
-                    <img src="/Paginas/llaves_rotativas/04.png" alt="Llaves Rotativas">
-                </div>
-                    <div class="card-body">
-                        
-                        <h2 class="card-title">Llave Rotativa</h2><br><br><br><br><br>
-                        
-                    <h3 class="card-description">R12x0,3 USD 2,35 </h3><h3> Consultar cotizacion USD</h3>                             
-                    </div>
-                </figure>
-            </div>
-</div>
+
+    <main class=" container">
+        <h2>Llaves Rotativas</h2>
+        <section id="mainLlavesRotativas">
+
+        </section>
     </main>
-    <footer class="footer">
+
+    <footer class="footer ">
         <div class="footer-wrap">
 
             <div>
-                <h3 class="card-description"><i class="fa-solid fa-at"></i> ventas@vantronic-sa.com.ar</h3>
+                <h4><i class="fa-solid fa-at"></i> ventas@vantronic-sa.com.ar</h4>
             </div>
             <div>
-                <h3 class="card-description"><i class="fa-brands fa-whatsapp"></i>11-3566-0113</h3>
+                <h4><i class="fa-brands fa-whatsapp"></i> 11-3566-0113</h4>
             </div>
             <div>
-                <h3 class="card-description"><i class="fa-solid fa-phone"></i>4-750-0702</h3>
+                <h4><i class="fa-solid fa-phone"></i> 4-750-0702</h4>
             </div>
-            </div>
-        
-    </footer> 
-    <script src="scripts.js"></script>      
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script type="module" src="./llaves_rotativas.js"></script>
 </body>
+
 </html>
+
+
+
+
+
+
+
