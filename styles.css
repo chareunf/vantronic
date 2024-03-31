@@ -142,7 +142,6 @@ main {
     width:100%;
     height: 70vh;
     background: url('./Paginas/nautica/nauticaProximamente.jpg');
-    background-color: red;
     background-size: cover;
     background-position: center;
     border-radius: 10px;

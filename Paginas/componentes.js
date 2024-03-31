@@ -1,6 +1,9 @@
 import {datosProductos} from '../datosProductos/dataProduct.js'
 import { accesoMapa } from '../helpers/accesoMapaHeader.js';
+import { headerVantronic } from '../helpers/headerVantronic.js';
 
+//Pintado del header
+headerVantronic()
 
 //Acceso a mapa
 accesoMapa()

@@ -1,8 +1,8 @@
-
+import { headerVantronic } from './helpers/headerVantronic.js';
 import {accesoMapa} from './helpers/accesoMapaHeader.js'
 
+headerVantronic()
 accesoMapa()
-
 
 const botonCE = document.getElementById('componentes-p-b'); 
 botonCE.addEventListener('click', () => {

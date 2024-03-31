@@ -1,4 +1,5 @@
-
+import { accesoMapa } from './accesoMapaHeader.js'
+import { headerVantronic } from './headerVantronic.js'
 // refDom => (string) Es el id de referencia en el Dom dondque quiero que pinte las cards
 //refData => (string) Es la referencia en la base de datos para que me filtre solo el array correspondiente
 //dataArray => Son los datos completos
@@ -78,10 +79,14 @@ export const filtroPintadoCards = (refDom, refData, dataArray) => {
 
     }
 
+    //Se renderiza en todas las paginas menos en el index,y en las paginas
+   //  principales de nautica y componentes electronicos en las cuales se importa el header en cada js.
+
     document.addEventListener('DOMContentLoaded', () => {
-        
+        headerVantronic()
         getComponents()
         getComponetsSection()
+        accesoMapa()
     })
 
 
