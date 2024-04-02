@@ -42,6 +42,9 @@ main {
 
 /*..........Index (botones componentes elec y nautica)............*/
 
+.contenedor-p {
+    margin: 0;
+}
 
 .card-p {
     width: 85%;
@@ -112,10 +115,12 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
     gap: 1rem;
-    /* place-content: center; */
+    place-content: center;
     
     
 }
+
+
 
 /*..........Pagina conectores............*/
 .conectoresTitles {
