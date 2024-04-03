@@ -31,11 +31,11 @@ export const filtroPintadoCards = (refDom, refData, dataArray) => {
                             <li class="list-group-item">${all.p2}</li>
                             <li class="list-group-item">${all.p3}</li>
                             <li class="list-group-item"> 
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#${all.img}">
                                     Ampliar imagen
                                 </button>
                             </li>
-                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal fade" id="${all.img}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-lg">
                                         <div class="modal-content">
                                             <div class="modal-header">
